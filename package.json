@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prerelease": "tsc",
+    "release": "semantic-release"
   },
   "repository": {
     "type": "git",
