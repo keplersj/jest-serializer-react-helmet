@@ -13,5 +13,8 @@ module.exports = {
     react: {
       version: "detect" // React version. "detect" automatically picks the version you have installed.
     }
+  },
+  env: {
+    node: true
   }
 };

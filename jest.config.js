@@ -3,14 +3,16 @@ module.exports = {
     {
       runner: "prettier",
       displayName: "lint:prettier",
-      moduleFileExtensions: ["tsx", "json", "md"],
-      testMatch: ["**/*.tsx", "**/*.json", "**/*.md"]
+      moduleFileExtensions: ["js", "tsx", "json", "md"],
+      testMatch: ["**/*.js", "**/*.tsx", "**/*.json", "**/*.md"],
+      testPathIgnorePatterns: ["/node_modules/", "/dist/"]
     },
     {
       runner: "eslint",
       displayName: "lint:eslint",
-      moduleFileExtensions: ["tsx"],
-      testMatch: ["**/*.tsx"]
+      moduleFileExtensions: ["js", "tsx"],
+      testMatch: ["**/*.js", "**/*.tsx"],
+      testPathIgnorePatterns: ["/node_modules/", "/dist/"]
     }
   ]
 };
