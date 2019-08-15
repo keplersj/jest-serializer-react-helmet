@@ -1,6 +1,6 @@
 {
   "name": "jest-serializer-react-helmet",
-  "version": "0.0.0-dev",
+  "version": "0.0.0-development",
   "description": "Serializer to display React Helmet data in Jest Snapshots",
   "main": "dist/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keplersj/jest-serializer-react-helmet.git"
+    "url": "https://github.com/keplersj/jest-serializer-react-helmet.git"
   },
   "keywords": [
     "jest",
@@ -53,7 +53,8 @@
     "jest-runner-prettier": "^0.2.7",
     "prettier": "^1.18.2",
     "react": "^16.9.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+    "semantic-release": "^15.13.21"
   },
   "peerDependencies": {
     "react": "*",
