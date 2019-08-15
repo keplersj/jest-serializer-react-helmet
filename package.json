@@ -1,0 +1,38 @@
+{
+  "name": "jest-serializer-react-helmet",
+  "version": "0.0.0-dev",
+  "description": "Serializer to display React Helmet data in Jest Snapshots",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keplersj/jest-serializer-react-helmet.git"
+  },
+  "keywords": [
+    "jest",
+    "react",
+    "react-helmet",
+    "unit-testing",
+    "snapshot-testing"
+  ],
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keplersj/jest-serializer-react-helmet/issues"
+  },
+  "homepage": "https://github.com/keplersj/jest-serializer-react-helmet#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "@types/node": "^12.6.9",
+    "@types/react": "^16.8.24",
+    "@types/react-helmet": "^5.0.9",
+    "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-helmet": "*"
+  }
+}
