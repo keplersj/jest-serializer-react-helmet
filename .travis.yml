@@ -5,7 +5,7 @@ node_js:
   - "lts/*"
 
 after_success:
-  # - npx stryker run
+  - npx stryker run
   - bash <(curl -s https://codecov.io/bash)
 
 jobs:
