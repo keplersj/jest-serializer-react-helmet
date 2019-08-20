@@ -53,4 +53,4 @@ const ReactHelmetSerializer: jest.SnapshotSerializerPlugin = {
   }
 };
 
-module.exports = ReactHelmetSerializer;
+export = ReactHelmetSerializer;
