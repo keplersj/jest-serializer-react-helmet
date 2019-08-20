@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Serialization module matches expectations 1`] = `
+Object {
+  "print": [Function],
+  "test": [Function],
+}
+`;

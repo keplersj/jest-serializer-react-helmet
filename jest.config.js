@@ -1,5 +1,14 @@
 module.exports = {
+  collectCoverage: true,
+  coverageReporters: ["json", "text"],
   projects: [
+    {
+      displayName: "test",
+      preset: "ts-jest",
+      collectCoverage: true,
+      coverageReporters: ["json", "text"],
+      testPathIgnorePatterns: ["/node_modules/", "/dist/"]
+    },
     {
       runner: "prettier",
       displayName: "lint:prettier",

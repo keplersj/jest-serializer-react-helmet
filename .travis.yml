@@ -4,6 +4,10 @@ node_js:
   - "node"
   - "lts/*"
 
+after_success:
+  # - npx stryker run
+  - bash <(curl -s https://codecov.io/bash)
+
 jobs:
   include:
     # Define the release stage that runs semantic-release

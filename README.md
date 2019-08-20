@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/keplersj/jest-serializer-react-helmet.svg?branch=master)](https://travis-ci.org/keplersj/jest-serializer-react-helmet)
 [![npm version](https://badge.fury.io/js/jest-serializer-react-helmet.svg)](https://badge.fury.io/js/jest-serializer-react-helmet)
+[![Code Coverage](https://codecov.io/gh/keplersj/jest-serializer-react-helmet/branch/master/graph/badge.svg)](https://codecov.io/gh/keplersj/jest-serializer-react-helmet)
 
 Jest Snapshot serializer to ensure React Helmet side effects are included in component snapshots.
 
