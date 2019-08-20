@@ -7,21 +7,21 @@ module.exports = {
       preset: "ts-jest",
       collectCoverage: true,
       coverageReporters: ["json", "text"],
-      testPathIgnorePatterns: ["/node_modules/", "/dist/"]
+      testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/"]
     },
     {
       runner: "prettier",
       displayName: "lint:prettier",
       moduleFileExtensions: ["js", "tsx", "json", "md"],
       testMatch: ["**/*.js", "**/*.tsx", "**/*.json", "**/*.md"],
-      testPathIgnorePatterns: ["/node_modules/", "/dist/"]
+      testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/"]
     },
     {
       runner: "eslint",
       displayName: "lint:eslint",
       moduleFileExtensions: ["js", "tsx"],
       testMatch: ["**/*.js", "**/*.tsx"],
-      testPathIgnorePatterns: ["/node_modules/", "/dist/"]
+      testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/"]
     }
   ]
 };

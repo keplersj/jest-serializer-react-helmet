@@ -1,5 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Serialization function component with React Helment correctly 1`] = `
+<head>
+  Object {}
+  Object {}
+  <meta
+    content="This is a unit test!"
+    data-react-helmet={true}
+    name="description"
+  />
+  <title
+    data-react-helmet={true}
+  >
+    Hello, Helmet!
+  </title>
+</head>
+
+<div>
+  <span>
+    Hello, Jest!
+  </span>
+</div>
+`;
+
 exports[`Serialization module matches expectations 1`] = `
 Object {
   "print": [Function],
