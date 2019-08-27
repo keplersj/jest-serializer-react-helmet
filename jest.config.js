@@ -15,10 +15,8 @@ module.exports = {
       ]
     },
     {
-      runner: "prettier",
+      preset: "jest-runner-prettier",
       displayName: "lint:prettier",
-      moduleFileExtensions: ["js", "tsx", "json", "md"],
-      testMatch: ["**/*.js", "**/*.tsx", "**/*.json", "**/*.md"],
       testPathIgnorePatterns: [
         "/node_modules/",
         "/dist/",
