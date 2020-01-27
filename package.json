@@ -55,7 +55,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
     "husky": "^4.0.0",
-    "jest": "^24.8.0",
+    "jest": "^25.1.0",
     "jest-runner-eslint": "^0.7.4",
     "jest-runner-prettier": "^0.3.1",
     "prettier": "^1.18.2",
@@ -63,7 +63,7 @@
     "react-helmet": "^5.2.1",
     "react-test-renderer": "^16.9.0",
     "semantic-release": "^16.0.0",
-    "ts-jest": "^24.0.2",
+    "ts-jest": "^25.0.0",
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
