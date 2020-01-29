@@ -6,14 +6,14 @@ Helmet.canUseDOM = false;
 const cache = new WeakSet();
 
 const ReactHelmetSerializer: jest.SnapshotSerializerPlugin = {
-  test(val) {
+  test(value) {
     return Boolean(
       // Does the value exist?
-      val &&
+      value &&
         // Have we serialized it?
-        !cache.has(val) &&
+        !cache.has(value) &&
         // Is it a React component?
-        val.$$typeof === Symbol.for("react.test.json") &&
+        value.$$typeof === Symbol.for("react.test.json") &&
         // Does it have Helmet data?
         Helmet.peek() &&
         // Have we serialized the Helmet data?
@@ -21,12 +21,12 @@ const ReactHelmetSerializer: jest.SnapshotSerializerPlugin = {
     );
   },
 
-  print(val, serialize) {
+  print(value, serialize) {
     // Get head data from Helmet
     const helmet = Helmet.peek();
 
     // Add component and helmet data to cache so we don't serialize it multiple times
-    cache.add(val);
+    cache.add(value);
     cache.add(helmet);
 
     // Recreate head from Helmet data
@@ -46,7 +46,7 @@ const ReactHelmetSerializer: jest.SnapshotSerializerPlugin = {
     );
 
     // Serialize the component like we were never here
-    const body = serialize(val);
+    const body = serialize(value);
 
     // Prepend our recreated head to the serialized body
     return head + "\n\n" + body;

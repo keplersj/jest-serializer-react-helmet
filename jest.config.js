@@ -27,8 +27,8 @@ module.exports = {
     {
       runner: "eslint",
       displayName: "lint:eslint",
-      moduleFileExtensions: ["js", "tsx"],
-      testMatch: ["**/*.js", "**/*.tsx"],
+      moduleFileExtensions: ["js", "tsx", "ts"],
+      testMatch: ["**/*.js", "**/*.tsx", "**/*.ts"],
       testPathIgnorePatterns: [
         "/node_modules/",
         "/dist/",
