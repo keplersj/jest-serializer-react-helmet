@@ -55,9 +55,9 @@
     "jest-runner-eslint": "^0.10.0",
     "jest-runner-prettier": "^0.3.1",
     "prettier": "^2.0.1",
-    "react": "^16.9.0",
+    "react": "^17.0.1",
     "react-helmet": "^6.0.0",
-    "react-test-renderer": "^16.9.0",
+    "react-test-renderer": "^17.0.1",
     "semantic-release": "^17.0.1",
     "ts-jest": "^25.0.0",
     "typescript": "^3.5.3"
