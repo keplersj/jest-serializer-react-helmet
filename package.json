@@ -37,7 +37,7 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.0.0",
+    "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "@stryker-mutator/core": "^2.0.2",
     "@stryker-mutator/html-reporter": "^3.0.0",
